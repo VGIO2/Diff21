@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+    <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+    <link rel="shortcut icon" href="images/multiplos_de_21%20(1).jpg">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+	<title>Diff21</title>
+</head>
+<body>
+<!------------------------------------------------------------------------------------------HEADER---->
+<header>
+       <div class="container">
+           <div class="row">
+               <div class="col-sm-offset-3 col-sm-6 col-xs-12 logo">
+                   <img class="animated wobble texto" src="images/logo.png">
+               </div>
+           </div>
+       </div>
+	   <div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1 class="text-center">Diff21</h1>
+				<p style="font-size:18px" class="text-center problemas">Calcular la diferencia absoluta de n - 21</p>
+				<hr>
+			</div>
+		  </div>
+       </div>
+</header>
+<!----------------------------------------------------------------------------------------EJERCICIO----->
+        <div class="row">
+			<div class="col-md-5 col-md-offset-2">
+				<div class="form-group">
+					<p style="font-size:18px">Ingresar número </p>
+					<input type="text" class="form-control" id="n" placeholder="0">
+				</div>
+				<div class="form-group">
+					<p style="font-size:15px"> * Si n es menor de 21 , se encontrara la diferencia absoluta <br> * Si n >21, se retorna al doble de su diferencia absoluta </p>
+				</div>
+				<button onclick="calcular()" class="btn btn-danger">Evaluar</button>
+				
+			</div>
+			<div class="col-md-3 text-center">
+				<h4 class="text-info">RESULTADO</h4>
+				<div id="salida" style="font-size:50px;" class="text-center">-</div>
+				
+	        </div>
+	     </div>
+</body>
+
+<script src="js/main.js"></script>
+</html>
