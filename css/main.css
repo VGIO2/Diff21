@@ -19,6 +19,10 @@ h1, h4, p{
 #salida{
     font-family: 'Aref Ruqaa', serif;
 }
+.codigo a{
+    color: black;
+    padding-top: 20px;
+}
 /*-------------------->> SECTION EJERCICIO <<--------------------*/
 button{
     margin-top: 20px;
