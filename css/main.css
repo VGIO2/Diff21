@@ -6,12 +6,16 @@ body{
     background-size: cover;
     background-position: center;
     height: 700px;
+    margin: 20px;
 }
 .logo img {
     padding-top: 50px;
     padding-bottom: 40px;
 }
 h1, h4, p{
+    font-family: 'Aref Ruqaa', serif;
+}
+#salida{
     font-family: 'Aref Ruqaa', serif;
 }
 /*-------------------->> SECTION EJERCICIO <<--------------------*/
