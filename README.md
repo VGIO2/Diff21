@@ -5,11 +5,11 @@ Inicio: Diff 21
 
 ## Ingreso datos
 - n
--diferencia
+- diferencia
 
 ## Proceso
 
--Leer n 
+- Leer n 
 - Si n > 21 entonces
        diferencia=n-21
        mostrar la diferencia por dos.
